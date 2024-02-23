@@ -1,0 +1,23 @@
+_: MBFileStub
+contentHash: sha1:279fc6b5499bb206a59a7cdad0c840fe7a0cda31
+createdAt: 2024-02-23 17:41:09
+metadata:
+  fileSize: 4379407
+  object:
+    class: Pipeline
+    description: |-
+      Pipeline(steps=[('preprocessor',
+                       ColumnTransformer(transformers=[('num',
+                                                        Pipeline(steps=[('num_impute',
+                                                                         SimpleImputer())]),
+                                                        <sklearn.compose._column_transformer.make_column_selector object at 0x7dae83a29300>),
+                                                       ('cat',
+                                                        Pipeline(steps=[('cat_impute',
+                                                                         SimpleImputer(strategy='most_frequent')),
+                                                                        ('encode',
+                                                                         OneHotEncoder(handle_unknown='ignore'))]),
+                                                        <sklearn.compose._column_transformer.make_column_selector object at 0x7dae83a299c0>)])),
+                      ('classifier', RandomForestClassifier())])
+    module: sklearn.pipeline
+    package: scikit-learn==1.2.2
+schemaVersion: 1
