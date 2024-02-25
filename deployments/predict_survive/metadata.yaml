@@ -1,0 +1,15 @@
+owner: milesarcher404@gmail.com
+runtimeInfo:
+  mainFunction: predict_survive
+  mainFunctionArgs:
+    - Pclass:Any
+    - Sex:Any
+    - Age:Any
+    - SibSp:Any
+    - Parch:Any
+    - Ticket:Any
+    - Fare:Any
+    - Cabin:Any
+    - Embarked:Any
+  pythonVersion: '3.11'
+schemaVersion: 2
